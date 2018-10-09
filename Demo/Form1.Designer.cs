@@ -31,6 +31,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.txtA = new System.Windows.Forms.TextBox();
             this.txtB = new System.Windows.Forms.TextBox();
+            this.txtKetQua = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -57,11 +58,19 @@
             this.txtB.Size = new System.Drawing.Size(100, 22);
             this.txtB.TabIndex = 2;
             // 
+            // txtKetQua
+            // 
+            this.txtKetQua.Location = new System.Drawing.Point(24, 115);
+            this.txtKetQua.Name = "txtKetQua";
+            this.txtKetQua.Size = new System.Drawing.Size(100, 22);
+            this.txtKetQua.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(282, 255);
+            this.Controls.Add(this.txtKetQua);
             this.Controls.Add(this.txtB);
             this.Controls.Add(this.txtA);
             this.Controls.Add(this.button1);
@@ -77,6 +86,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtA;
         private System.Windows.Forms.TextBox txtB;
+        private System.Windows.Forms.TextBox txtKetQua;
     }
 }
 
